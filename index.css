@@ -1,0 +1,24 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+
